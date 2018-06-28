@@ -1,5 +1,5 @@
-# nodeApiPlate
-A boilerplate for writing a NodeJS/Express Web API with ES2017, Airbnb ESLint rules, Nodemon, and Babel.
+# nodeSQLApiPlate
+A boilerplate for writing a NodeJS/Express/SQL Web API with ES2017, Airbnb ESLint rules, Nodemon, and Babel
 
 This is the linked node-express option in Platemail cli: https://github.com/maxwellsmart84/platemail
 
