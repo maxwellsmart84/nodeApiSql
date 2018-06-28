@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "src/"
+  ],
+  "ignore": [
+    "lib/",
+    "node_modules/"
+  ],
+  "env": {
+    "NODE_ENV": "local"
+  }
+}

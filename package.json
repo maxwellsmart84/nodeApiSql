@@ -1,0 +1,48 @@
+{
+  "name": "nodeSQLApiPlate",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Maxwell Krause",
+  "license": "ISC",
+  "engines": {
+    "node": "^8.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxwellsmart84/nodeApiPlate"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/node": "^7.0.0-beta.40",
+    "@babel/polyfill": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.42",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^5.0.5",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "knex": "^0.14.6",
+    "mariasql": "^0.2.6",
+    "mssql": "^4.1.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "oracle": "^0.4.1",
+    "pg": "^7.4.3",
+    "sqlite3": "^4.0.0"
+  },
+  "scripts": {
+    "test": "mocha --require ./babelPolyfill.js test/test.js",
+    "clean": "rm -rf lib",
+    "start": "nodemon --exec babel-node src/serve.js",
+    "build": "node_modules/.bin/babel src --out-dir lib --copy-files --source-maps"
+  }
+}
