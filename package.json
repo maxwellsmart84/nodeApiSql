@@ -1,5 +1,5 @@
 {
-  "name": "nodeSQLApiPlate",
+  "name": "node-sql-api-plate",
   "version": "1.0.0",
   "description": "",
   "author": "Maxwell Krause",
@@ -31,14 +31,7 @@
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
-    "knex": "^0.14.6",
-    "mariasql": "^0.2.6",
-    "mssql": "^4.1.0",
-    "mysql": "^2.15.0",
-    "mysql2": "^1.5.3",
-    "oracle": "^0.4.1",
-    "pg": "^7.4.3",
-    "sqlite3": "^4.0.0"
+    "knex": "^0.14.6"
   },
   "scripts": {
     "test": "mocha --require ./babelPolyfill.js test/test.js",
